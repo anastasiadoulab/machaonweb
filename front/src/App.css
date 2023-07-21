@@ -1,0 +1,343 @@
+.logo-title, .logo-footer {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.logo-title, .logo-footer, .site-footer {
+    text-align: center; 
+}
+
+.logo-title {
+    font-size: 60pt;
+    margin-top: -18px;
+}
+
+@media (max-width: 480px)
+{
+    .logo-title {
+        font-size: 40pt !important;
+    }
+}
+
+.logo-footer {
+    font-size: 18pt;
+    margin-top: -30px;
+}
+
+
+@media (max-width: 480px)
+{
+    .logo-footer {
+        font-size: 12pt !important;
+        margin-top: -20px !important;
+    }
+}
+
+
+.logo-title, .logo-footer, .site-footer, h1, h3 {
+    color: darkcyan;
+}
+
+.modal-dialog button,
+.navbar,
+.btn-submit {
+    background-color: darkcyan !important;
+}
+
+.nav-badge {
+    background-color: cadetblue !important;
+}
+
+.nav-arrow {
+    color: white;
+    display: none;
+    padding-left: 10px;
+    text-align: center;
+}
+
+@media (max-width: 480px)
+{
+    .nav-arrow {
+        display: inherit;
+    }
+}
+
+.logo-container {
+    padding-bottom: 30px;
+}
+
+.site-footer {
+    border-top: cadetblue solid;
+    padding-top:0.5%; 
+    width: 100%; 
+}
+
+.left-footer {
+    text-align: left;
+}
+
+.middle-footer {
+    text-align: center;
+    position: relative;
+    top: 14px;
+}
+
+.right-footer {
+    text-align: right;
+    position: relative;
+}
+
+.hypatia-label {
+    margin-right: 8px;
+}
+
+.hypatia-logo,
+.uoa-logo {
+    height: 50px;
+}
+
+.brfaa-logo {
+    height: 60px;
+}
+
+
+@media (max-width: 480px)
+{
+    .hypatia-logo,
+    .uoa-logo {
+        max-height: 35px;
+    }
+    
+    .brfaa-logo {
+        max-height: 45px;
+    }
+    
+}
+
+
+.main-container {
+    min-height: 80vh;
+} 
+
+html, body, #root, .App { 
+    height:100%; 
+    width: 100%;
+    margin: auto; 
+}
+
+.grecaptcha-badge {
+    position: relative;
+    bottom: 20% !important;
+}
+
+@media (max-width: 480px)
+{
+    .grecaptcha-badge {
+        bottom: 10% !important;
+    }
+}
+
+.sys-info {
+    color: white !important;
+}
+
+.request-link-container {
+    background-color: cadetblue;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 10pt;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    line-height: 30px; 
+}
+
+.copy-button {
+    font-size: 9pt;
+    text-align: center;
+    width: 64px;
+}
+
+.request-link-anchor{
+    font-size: small;
+    color: white;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.residue-choice {
+    width: 30%;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.mode-select {
+    margin-top: 5px;
+    display: block ruby;
+}
+
+.error-mark {
+    font-weight: bolder;
+    color: red;
+    float: right;
+    position: relative;
+    bottom: 36px;
+    right: 1%;
+    font-size: 18pt;
+    display: inline;
+}
+
+.logo-suffix {
+    color: gray;
+}
+
+.example-input,
+.secure-hash,
+.italics-note,
+.short-note {
+    color: dimgray;
+}
+
+.secure-hash{
+    font-size: 10pt;
+    margin-bottom: 5%;
+}
+
+.list-item-label {
+    font-weight: bolder;
+}
+
+h1 {
+    padding-bottom: 30px;
+}
+
+h3 {
+    padding-bottom: 2px;
+}
+
+.view-options {
+    font-size: 12pt;
+}
+
+.view-options li {
+    padding: 5px;
+}
+ 
+.instructions {
+    margin-bottom: 50px;
+}
+
+.instructions li,
+.results li {
+    padding: 8px;
+}
+
+.alignment-choice{
+    width: auto;
+    margin-left: 8px;
+}
+
+.about-section {
+    margin-bottom: 40px;
+}
+
+.nav-info-text {
+    white-space: nowrap; 
+    margin: 8px; 
+    margin-left: 28%;
+}
+
+@media (max-width: 480px)
+{
+    .nav-info-text{
+        margin-left: 4% !important;
+    }
+}
+
+.navbar-nav {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+    margin: 0.2%;
+}
+
+
+.italics-note{
+    font-style: italic;
+}
+
+.back-to-top{
+    text-align: center;
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.top-anchor {
+    display: none;
+}
+
+.segment-mode {
+    display: inline;
+}
+
+@media (max-width: 480px)
+{
+    .segment-mode,
+    .back-to-top{
+        display: block !important;
+    }
+}
+
+.nav-sep,
+.job_count {
+    margin-left: 4px;
+}
+
+.submit-section > div{
+    display: inline;
+    vertical-align: middle;
+}
+
+@media (min-width: 1900px)
+{
+    .main-container {
+        min-height: 82vh !important;
+      }
+    
+}
+
+@media (min-width: 2000px)
+{
+  .main-container {
+    min-height: 84vh !important;
+  }
+
+  .logo-title {
+    font-size: 70pt !important;
+    margin-top: 0px !important;
+  }
+
+  .logo-container {
+    padding-bottom: 80px !important;
+  }
+}
+
+@media (min-width: 3000px)
+{
+    .main-container {
+        min-height: 88vh !important;
+    }
+
+    .logo-title {
+        font-size: 80pt !important;
+        margin-top: 0px !important;
+    }
+
+    .logo-container {
+        padding-bottom: 90px !important;
+    }
+}
